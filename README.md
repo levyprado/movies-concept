@@ -10,7 +10,7 @@ Users should be able to:
 ### Screenshots
 
 ![](images/screenshot-desktop.png)
-![](images/screenshot-mobile.png)
+![](images/screenshot-mobile-new.png)
 
 ### Links
 
