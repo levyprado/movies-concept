@@ -2,6 +2,10 @@
 
 Responsive pure HTML & CSS Webpage, movie themed.
 
+### Links
+
+- Live Site URL: [https://levyprado.github.io/movies-concept/](https://levyprado.github.io/movies-concept/)
+
 Users should be able to:
 
 - View the optimal layout depending on their device's screen size
@@ -11,10 +15,6 @@ Users should be able to:
 
 ![](images/screenshot-desktop.png)
 ![](images/screenshot-mobile-new.png)
-
-### Links
-
-- Live Site URL: [https://levyprado.github.io/movies-concept/](https://levyprado.github.io/movies-concept/)
 
 ### Built with:
 
