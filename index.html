@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/components/bg.css">
+    <link rel="stylesheet" href="./styles/components/header.css">
+    <link rel="stylesheet" href="./styles/components/hero.css">
+    <link rel="stylesheet" href="./styles/components/footer.css">
+    <title>Movies</title>
+</head>
+
+<body>
+    <section class="bg">
+        <header class="header container">
+            <a href="#" class="header__title">Movies</a>
+            <nav class="header__nav">
+                <ul class="header__menu">
+                    <li><a class="header__item" href="">Home</a></li>
+                    <li><a class="header__item" href="">Series</a></li>
+                    <li><a class="header__item header__item--active" href="">Movies</a></li>
+                    <li><a class="header__item" href="">Kids</a></li>
+                    <li><a class="header__item" href="">My List</a></li>
+                </ul>
+            </nav>
+            <div class="header__search">
+                <a class="header__icon-anchor" href=""><i class="fa-solid fa-magnifying-glass header__icon"></i></a>
+                <a class="header__icon-anchor" href=""><i class="fa-regular fa-bookmark header__icon"></i></a>
+                <a href="https://github.com/levyprado" target="_blank" class="header__btn"><img class="header__pfp"
+                        src="./images/rickpfp.png" alt=""></a>
+            </div>
+        </header>
+        <section class="hero container">
+            <div class="hero__movie-info-container">
+                <img src="./images/interstellar-logo.png" alt="" class="hero__logo">
+                <div class="hero__movie-info">
+                    <span class="hero__info">2014</span>
+                    <span class="hero__info">13+</span>
+                    <span class="hero__info">2h 49min</span>
+                    <span class="hero__info">Sci-Fi</span>
+                </div>
+                <p class="hero__movie-description">
+                    Sint sit ullamco ea nostrud sunt veniam commodo adipisicing fugiat in laborum aliquip nulla
+                    reprehenderit. Eiusmod culpa tempor sunt do. Proident fugiat aute nulla ipsum. Labore do irure
+                    tempor veniam ut. Ex consequat aliquip sunt non minim cupidatat consequat eiusmod mollit.
+                </p>
+                <div class="hero__movie-btns">
+                    <button class="hero__btn hero__btn--watch"><i
+                            class="fa-solid fa-play hero__btn-icon"></i>Watch</button>
+                    <button class="hero__btn hero__btn--list"><i class="fa-solid fa-plus hero__btn-icon"></i>My
+                        list</button>
+                </div>
+            </div>
+            <div class="hero__cards-container">
+                <div class="hero__card hero__third">
+                    <img src="./images/the-tank.jpeg" alt="" class="hero__card-img">
+                </div>
+                <div class="hero__card hero__second">
+                    <img src="./images/the-covenant.jpg" alt="" class="hero__card-img">
+                </div>
+                <div class="hero__card hero__main">
+                    <img src="./images/interstellar-card.jpg" alt="" class="hero__card-img">
+                </div>
+                <div class="hero__card hero__second">
+                    <img src="./images/the-little-mermaid.jpeg" alt="" class="hero__card-img">
+                </div>
+                <div class="hero__card hero__third">
+                    <img src="./images/the-black-demon.jpg" alt="" class="hero__card-img">
+                </div>
+            </div>
+        </section>
+        <footer class="footer container">
+            <p class="footer__text">Pure HTML & CSS Concept Website developed by <a class="footer__link"
+                    href="https://github.com/levyprado" target="_blank">Levy Prado</a></p>
+        </footer>
+    </section>
+</body>
+
+</html>

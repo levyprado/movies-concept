@@ -1,0 +1,138 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+.header__title {
+    font-size: 3rem;
+    text-decoration: none;
+    color: var(--clr-light);
+    font-weight: 600;
+    /* flex: 1; */
+    line-height: 1.1;
+}
+
+.header__nav {
+    display: flex;
+    /* flex: 1; */
+    justify-content: center;
+}
+
+.header__menu {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.header__item {
+    color: var(--clr-gray);
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.header__item:hover {
+    color: var(--clr-light);
+}
+
+.header__item--active {
+    color: var(--clr-light);
+}
+
+.header__item--active::after {
+    content: "";
+    display: block;
+    width: 100%;
+    border: 1px solid var(--clr-light);
+    height: 2px;
+}
+
+.header__search {
+    /* flex: 1; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header__icon-anchor {
+    text-decoration: none;
+    color: var(--clr-gray);
+}
+
+.header__icon {
+    font-size: 1.5rem;
+}
+
+.header__btn {
+    width: 2rem;
+    height: 2rem;
+}
+
+.header__pfp {
+    border-radius: 50%;
+}
+
+/* desktop first */
+
+/* xs */
+/* 1536px */
+/* @media (max-width: 96rem) {} */
+
+/* sm */
+/* 1280px */
+@media (max-width: 80rem) {
+    .header__item {
+        font-size: 1rem;
+    }
+}
+
+/* lg */
+/* 1024px */
+@media (max-width: 64rem) {
+    .header__title {
+        font-size: 2.5rem;
+    }
+
+    .header__icon {
+        font-size: 1.125rem;
+    }
+}
+
+/* md */
+/* 768px */
+@media (max-width: 48rem) {
+    .header {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .header__nav {
+        grid-row: 2;
+        grid-column: 1 / -1;
+        margin-top: 0.5rem;
+    }
+}
+
+/* xl */
+/* 640px */
+/* @media (max-width: 40rem) {} */
+
+/* 2xl */
+/* 475px */
+@media (max-width: 29.6875rem) {
+    .header__title {
+        font-size: 2rem;
+    }
+
+    .header__item {
+        font-size: 0.9rem;
+    }
+
+    .header__menu {
+        gap: 1rem;
+    }
+}

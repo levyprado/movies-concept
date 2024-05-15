@@ -1,0 +1,47 @@
+.footer {
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.footer__text {
+    font-weight: 400;
+}
+
+.footer__link {
+    color: var(--clr-gray);
+}
+
+/* desktop first */
+
+/* xs */
+/* 1536px */
+/* @media (max-width: 96rem) {} */
+
+/* sm */
+/* 1280px */
+/* @media (max-width: 80rem) {} */
+
+/* lg */
+/* 1024px */
+/* @media (max-width: 64rem) {} */
+
+/* md */
+/* 768px */
+@media (max-width: 48rem) {
+    .footer__text {
+        font-size: 0.9rem;
+    }
+}
+
+/* xl */
+/* 640px */
+/* @media (max-width: 40rem) {} */
+
+/* 2xl */
+/* 475px */
+@media (max-width: 29.6875rem) {
+    .footer__text {
+        max-width: 30ch;
+        margin-inline: auto;
+    }
+}
